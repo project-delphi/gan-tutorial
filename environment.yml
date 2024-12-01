@@ -1,0 +1,22 @@
+name: .conda
+channels:
+  - huggingface
+  - conda-forge
+  - nodefaults
+  - torchvision
+dependencies:
+  - python=3.10
+  - numpy
+  - scipy
+  - pandas
+  - jupyter
+  - ipython
+  - scikit-learn
+  - keras
+  - tensorflow
+  - pytorch
+  - matplotlib
+  - seaborn
+  - imageio
+  - torchvision
+  - datasets
