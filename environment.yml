@@ -3,7 +3,7 @@ channels:
   - huggingface
   - conda-forge
   - nodefaults
-  - torchvision
+  - pytorch
 dependencies:
   - python=3.10
   - numpy
@@ -17,6 +17,4 @@ dependencies:
   - pytorch
   - matplotlib
   - seaborn
-  - imageio
-  - torchvision
   - datasets
