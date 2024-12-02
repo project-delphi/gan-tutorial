@@ -1,6 +1,40 @@
 # GANs Tutorial
 
+## Setup
+
+* Clone the repository into your code directory. Something like `~/Code/github.com`
+
+```bash
+git clone https://github.com/project-delphi/gan-tutorial.git
+```
+
+* Change into the directory, switch branch and then create new branch
+
+```bash
+cd ./gan-tutorial
+git switch rk/draft
+git switch -c your-branch-name
+```
+
+* Create a virtual environment
+
+```bash
+conda env create --prefix ./.conda --file ./environment.yml
+```
+
+* Activate the virtual environment
+
+```bash
+conda activate ./.conda
+```
+
+* Install the requirements
+* Try out and play with notebooks
+
+## Introduction
 This tutorial works through the necessary pre-requisites to justifying the use of a GAN, and then points to  implementations of GAN using PyTorch & Keras. It is meant to be accessible to those with a basic understanding of machine learning & neural networks.
+
+## Table of Contents
 
 Working through in this order will help you understand the theory behind GANs, and then how to implement them in practice:
 
